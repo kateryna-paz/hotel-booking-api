@@ -32,9 +32,6 @@ jobs:
         working-directory: ./docs
         run: npm install
 
-      - name: Copy OpenAPI spec into docs folder
-        run: cp openapi.yaml docs/openapi.yaml
-
       - name: Build Zudoku site
         working-directory: ./docs
         run: npm run build
