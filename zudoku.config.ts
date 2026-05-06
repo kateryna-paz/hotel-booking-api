@@ -1,7 +1,7 @@
 import type { ZudokuConfig } from "zudoku";
 
 const config: ZudokuConfig = {
-  basePath: "/hotel-booking-docs/",
+  basePath: "/hotel-booking-docs",
 
   redirects: [
     {

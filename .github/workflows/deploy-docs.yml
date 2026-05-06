@@ -26,20 +26,18 @@ jobs:
         with:
           node-version: "20"
           cache: "npm"
-          cache-dependency-path: docs/package.json
+          cache-dependency-path: package.json
 
       - name: Install dependencies
-        working-directory: ./docs
         run: npm install
 
       - name: Build Zudoku site
-        working-directory: ./docs
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs/dist
+          path: ./dist/hotel-booking-docs
 
   deploy:
     needs: build
