@@ -18,29 +18,29 @@ It provides full CRUD operations for two core entities — **Hotel** and **Room*
 
 ### Tech Stack
 
-| Layer            | Technology                        |
-|------------------|-----------------------------------|
-| API Specification| OpenAPI 3.0.3 (YAML)              |
-| SDK Language     | TypeScript (Fetch API)            |
-| Documentation    | Zudoku                            |
-| Hosting          | GitHub Pages                      |
+| Layer             | Technology             |
+| ----------------- | ---------------------- |
+| API Specification | OpenAPI 3.0.3 (YAML)   |
+| SDK Language      | TypeScript (Fetch API) |
+| Documentation     | Zudoku                 |
+| Hosting           | GitHub Pages           |
 
 ---
 
 ## Author
 
-| Field       | Info                          |
-|-------------|-------------------------------|
-| **Name**    | Pazynych Kateryna             |
-| **GitHub**  | [github.com/your-username](https://github.com/your-username) |
-| **Email**   | your.email@example.com        |
+| Field      | Info                                                       |
+| ---------- | ---------------------------------------------------------- |
+| **Name**   | Pazynych Kateryna                                          |
+| **GitHub** | [github.com/kateryna-paz](https://github.com/kateryna-paz) |
+| **Email**  | katepaz@gmail.com                                          |
 
-This project was created as part of a university assignment on API documentation using OpenAPI and Zudoku.
+This project was developed as part of a university assignment focused on API design and documentation using OpenAPI and Zudoku.
 
 ---
 
 ## Links
 
-- 📄 [OpenAPI Specification (YAML)](https://github.com/your-username/hotel-booking-api/blob/main/openapi.yaml)
-- 📦 [TypeScript SDK source](https://github.com/your-username/hotel-booking-api/tree/main/sdk)
-- 🌐 [Live Documentation (GitHub Pages)](https://your-username.github.io/hotel-booking-docs)
+- 📄 [OpenAPI Specification (YAML)](https://github.com/kateryna-paz/hotel-booking-docs/blob/main/openapi.yaml)
+- 📦 [TypeScript SDK source](https://github.com/kateryna-paz/hotel-booking-docs/tree/main/sdk)
+- 🌐 [Live Documentation (GitHub Pages)](https://kateryna-paz.github.io/hotel-booking-docs)

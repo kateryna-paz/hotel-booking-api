@@ -4,9 +4,9 @@ title: Welcome
 
 # Hotel Booking API Documentation
 
-Ласкаво просимо до інтерактивної документації системи бронювання готелів!
+Welcome to the interactive documentation for the Hotel Booking system!
 
-Використовуйте верхнє меню, щоб переходити між розділами:
+Use the top navigation menu to explore different sections:
 
-- **Documentation**: Посібник користувача (Інсталяція, Авторизація).
-- **API Reference**: Інтерактивна консоль для тестування ендпоінтів.
+- **Documentation**: User guide (Installation, Authorization).
+- **API Reference**: Interactive API console for testing endpoints.

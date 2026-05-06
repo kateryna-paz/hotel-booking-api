@@ -18,7 +18,7 @@ Read operations (`GET`) on public endpoints do not require authentication.
 Authenticate against your identity provider to obtain a JWT:
 
 ```http
-POST /auth/login
+POST /auth/login (example)
 Content-Type: application/json
 
 {
@@ -42,7 +42,7 @@ Content-Type: application/json
 ### Via SDK
 
 ```typescript
-import HotelBookingClient from "hotel-booking-api-sdk";
+import HotelBookingClient from "./dist";
 
 const client = new HotelBookingClient({
   baseUrl: "https://api.hotelbooking.example.com/v1",
@@ -58,11 +58,13 @@ const hotel = await client.hotels.create({
 });
 ```
 
+Method names depend on the generated SDK structure based on OpenAPI specification.
+
 ### Updating the Token at Runtime
 
 ```typescript
 // After token refresh
-client.setToken("new-jwt-token");
+client.setToken("new-jwt-token"); // if supported by SDK implementation
 ```
 
 ### Via HTTP Header
