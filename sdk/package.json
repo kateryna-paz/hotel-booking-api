@@ -1,0 +1,28 @@
+{
+  "name": "hotel-booking-api-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for the Hotel Booking API (generated from OpenAPI 3.0.3)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "hotel",
+    "booking",
+    "api",
+    "sdk",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
