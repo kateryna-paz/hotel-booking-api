@@ -24,7 +24,7 @@ The compiled output will be placed in `sdk/dist/`.
 ## Initializing the Client
 
 ```typescript
-import HotelBookingClient from "hotel-booking-api-sdk";
+import HotelBookingClient from "./dist";
 
 const client = new HotelBookingClient({
   baseUrl: "https://api.hotelbooking.example.com/v1",
