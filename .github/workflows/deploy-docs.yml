@@ -38,6 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/hotel-booking-docs
+          name: github-pages
 
   deploy:
     needs: build
