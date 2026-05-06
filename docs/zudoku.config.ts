@@ -53,7 +53,7 @@ const config: ZudokuConfig = {
   apis: [
     {
       type: "file",
-      input: "../openapi.yaml",
+      input: "./openapi.yaml",
       path: "api",
     },
   ],
