@@ -11,7 +11,6 @@ REST API for managing hotels and rooms, documented with OpenAPI 3.0.3 and Zudoku
 
 ```
 hotel-booking-api/
-├── openapi.yaml               # OpenAPI 3.0.3 specification
 ├── sdk/                       # TypeScript Fetch SDK
 │   ├── src/
 │   │   ├── index.ts           # HotelBookingClient class
@@ -21,6 +20,7 @@ hotel-booking-api/
 │   └── README.md
 ├── docs/                      # Zudoku documentation site
 │   ├── zudoku.config.ts       # Zudoku configuration
+│   ├── openapi.yaml           # OpenAPI 3.0.3 specification
 │   ├── package.json
 │   └── pages/
 │       ├── installation.md
