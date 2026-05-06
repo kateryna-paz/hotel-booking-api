@@ -1,4 +1,4 @@
-# Hotel Booking API
+# Hotel Booking DOCS
 
 > **Author:** Pazynych Kateryna  
 > **Subject:** API Documentation with OpenAPI & Zudoku
@@ -10,7 +10,7 @@ REST API for managing hotels and rooms, documented with OpenAPI 3.0.3 and Zudoku
 ## Repository Structure
 
 ```
-hotel-booking-api/
+hotel-booking-docs/
 ├── sdk/                       # TypeScript Fetch SDK
 │   ├── src/
 │   │   ├── index.ts           # HotelBookingClient class
@@ -19,13 +19,14 @@ hotel-booking-api/
 │   ├── tsconfig.json
 │   └── README.md
 ├── docs/                      # Zudoku documentation site
-│   ├── zudoku.config.ts       # Zudoku configuration
-│   ├── openapi.yaml           # OpenAPI 3.0.3 specification
-│   ├── package.json
 │   └── pages/
 │       ├── installation.md
 │       ├── authorization.md
 │       └── about.md
+├── zudoku.config.ts       # Zudoku configuration
+├── openapi.yaml           # OpenAPI 3.0.3 specification
+├── package.json
+├── README.md
 └── .github/
     └── workflows/
         └── deploy-docs.yml    # GitHub Actions CI/CD
@@ -70,9 +71,7 @@ Full SDK docs → [sdk/README.md](./sdk/README.md)
 ### 3 — Run the documentation site locally
 
 ```bash
-cd docs
 npm install
-cp ../openapi.yaml ./openapi.yaml   # copy spec into docs folder
 npm run dev
 ```
 
@@ -93,7 +92,7 @@ The documentation is automatically deployed to GitHub Pages on every push to `ma
 ### Live URL
 
 ```
-https://kateryna-paz.github.io/hotel-booking-api/
+https://kateryna-paz.github.io/hotel-booking-docs/
 ```
 
 ---
