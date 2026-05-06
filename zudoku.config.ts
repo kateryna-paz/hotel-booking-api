@@ -1,7 +1,7 @@
 import type { ZudokuConfig } from "zudoku";
 
 const config: ZudokuConfig = {
-  basePath: "/hotel-booking-docs",
+  basePath: "/hotel-booking-docs/",
 
   redirects: [
     {
@@ -35,8 +35,16 @@ const config: ZudokuConfig = {
           type: "category",
           label: "Getting Started",
           items: [
-            { type: "doc", file: "installation", label: "Installation" },
-            { type: "doc", file: "authorization", label: "Authorization" },
+            {
+              type: "doc",
+              file: "installation",
+              label: "Installation",
+            },
+            {
+              type: "doc",
+              file: "authorization",
+              label: "Authorization",
+            },
             { type: "doc", file: "about", label: "About" },
           ],
         },
@@ -60,7 +68,7 @@ const config: ZudokuConfig = {
 
   // ── MDX pages ────────────────────────────────────────────────────────────
   docs: {
-    files: "/pages/**/*.{md,mdx}",
+    files: "/docs/pages/**/*.{md,mdx}",
   },
 
   // ── Theme ────────────────────────────────────────────────────────────────

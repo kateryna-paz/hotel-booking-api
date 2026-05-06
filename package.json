@@ -2,6 +2,7 @@
   "name": "hotel-booking-docs",
   "version": "1.0.0",
   "description": "Zudoku documentation site for Hotel Booking API",
+  "type": "module",
   "scripts": {
     "dev": "zudoku dev",
     "build": "zudoku build",
